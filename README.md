@@ -1,7 +1,8 @@
 # Fully_Finance
-Contains various functions and classes to assist with visualization and analytics of trading data in python
 By James Altemus
-### Begin by loading the _base.py file. This file contains 3 functions:
+###Contains various functions and classes to assist with visualization and analytics of trading data in python
+
+Begin by loading the _base.py file. This file contains 3 functions:
 * csv_loader: loads from a CSV. It can convert periods (i.e. from days to months) using either a US trading calendar or a UK trading calendar.
 
 * multi_loader: loads a list of securities from an internet source (default Yahoo Finance) given a list of tickers, a start date, and an end date.
