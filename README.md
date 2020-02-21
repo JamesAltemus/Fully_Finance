@@ -2,7 +2,7 @@
 Contains various functions and classes to assist with visualization and analytics of trading data in python
 By James Altemus
 
-#############################################################################################################
+#############################################################################################
 
 Begin by loading the _base.py file. This file contains 3 functions:
 > csv_loader: loads from a CSV. It can convert periods (i.e. from days to months) using either a US trading calendar or a UK trading calendar.
@@ -14,7 +14,7 @@ Begin by loading the _base.py file. This file contains 3 functions:
 > web_loader: loads a single security from an internet source (default Yahoo Finance) given a list of tickers, a start date, and an end date.
 	      It converts periods, and can use either US or UK trading calendars. It will take all information from the API source.
 
-#############################################################################################################
+#############################################################################################
 
 After loading security data, load _core.py and call the PortfolioBuilder class.
 Using PortfolioBuilder, returns can be calculated, analytics can be added (currently only supports some indicators), or the portfolio can be optimized.
