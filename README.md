@@ -1,21 +1,3 @@
-pip install pandas
-
-pip install numpy
-
-pip install scipy
-
-pip install pandas_datareader
-
-pip install copy
-
-pip install seaborn
-
-pip install warnings
-
-pip install matplotlib
-
-
-
 # Fully_Finance
 Contains various functions and classes to assist with visualization and analytics of trading data in python
 
