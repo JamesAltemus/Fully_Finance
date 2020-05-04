@@ -1,10 +1,17 @@
 pip install pandas
+
 pip install numpy
+
 pip install scipy
+
 pip install pandas_datareader
+
 pip install copy
+
 pip install seaborn
+
 pip install warnings
+
 pip install matplotlib
 
 
