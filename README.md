@@ -24,7 +24,7 @@ contains the current features, and .OptimizePortfolio.constraints contains the c
 * .optimize: feeds the added features and constraints into an optimizer. It can use either geometric or arithmetic mean operations, and can generate an efficent frontier. The only goal that cannot generate an efficent frontier is Alpha. The remainder of the parameters are for the scipy optimizer.
 
 After optimization is finished, .OptimizePortfolio.'feature_name' contains the optimized portfolio information. I'll use Sharpe_Ratio as an example:
-* To get the optimal (tangency) portfolio, call .OptimizePortfolio.SharpeRatio.OptimalSharpeRatio
+* To get the optimal (tangency) portfolio, call .OptimizePortfolio.SharpeRatio.Optimal
 * To get the scipy optimization information call .OptimizePortfolio.SharpeRatio.OptiParam
 * To get the full optimization parameters used call .OptimizePortfolio.SharpeRatio.Parameters
 * To get the constituent information call .OptimizePortfolio.SharpeRatio.ConstituentSharpe
