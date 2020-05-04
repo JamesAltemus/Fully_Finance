@@ -31,4 +31,7 @@ After optimization is finished, .OptimizePortfolio.'feature_name' contains the o
 * If an efficent frontier was generated, call .OptimizePortfolio.SharpeRatio.EfficentFrontier to list the information for each of the analysed portfolios.
 * If an efficent frontier was generated, call .OptimizePortfolio.SharpeRatio.EfficentParam to list the scipy optimization information for each of the analysed portfolios.
 
+# Optimization:
+Graphics WIP
+
 If you have any suggestions, or comments, please email me at jamesaltem@gmail.com
